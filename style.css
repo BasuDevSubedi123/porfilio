@@ -1,0 +1,291 @@
+
+
+
+
+
+body{
+    padding: 10px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, red, blue, yellow);
+}
+
+nav {
+    height: 55px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(51, 34, 34);
+    display: flex;
+  
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    margin-right: 2vw;
+
+  }
+  nav li {
+    margin: 2vw;
+    color: white;
+    display: inline;
+    float: left;
+  }
+  nav a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+    text-decoration: none;
+    font-size: 3vw;
+  }
+  nav li:hover {
+    background-color: #444;
+  }
+  .tab{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main{
+    display: flex;
+    background-color: rgb(7, 7, 7);
+  }
+  img{
+    height: 43.4vw;
+    width: 70vw;
+  }
+  .containt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .con{
+    font-size: 3vw;
+  }
+  .ContaintPhone{
+    display: none;
+  }
+  
+
+/*
+ Education
+*/
+.education{
+  height:25vw;
+  width: 100%;
+  background-image: url(./images/Top-12-Pioneers-in-Education-1024x683.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+h1{
+  background-color: darkcyan;
+}
+  .hs{
+    display: flex;
+  }
+  .conts{
+    width: 29%;
+    
+  }
+.Ed-img{
+  padding-top: 5px;
+  width: 71%;
+}
+
+.college{
+  display: flex;
+}
+
+/*
+ drawing
+*/
+
+.top-img{
+  margin: 0px;
+  padding:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 50vw;
+  background-image: url(./images/drawing.jpg);
+  background-size: 100% 100%;
+}
+.top-img img{
+  width: 100%;
+  height: 25vw;
+}
+
+Iimg{
+  height: 30vw;
+  width: 100%;
+}
+.first ,.second, .third{
+  display: flex;
+}
+.conts p {
+  border: 2px solid green;
+  
+}
+h1{
+  background-color:white ;
+  font-size: 300%;
+}
+.main h1 {
+  background-color: black;
+}
+
+
+.project{
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  transition-duration: 5s;
+}
+.PKochi{
+  padding: 10px;
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project a{
+  width: 100%;
+  height: 100%;
+}
+iframe{
+  width:100%;
+  height:100%;
+}
+
+#sk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(102, 97, 102);
+
+}
+#sk2{
+  padding-left: 50px;
+  color: white;
+  background-color: rgb(102, 97, 102);
+}
+
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(46, 53, 46);
+}
+i{
+  color: white;
+  font-size: 25px;
+}
+.socialMedia{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.last{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(46, 53, 46);
+  color: white;
+}
+.last h1{
+  background-color: rgb(46, 53, 46);
+}
+.last-in{
+  height: 5px;
+  width: 100%;
+  background-color:blue;
+}
+
+
+
+
+
+
+/*
+ phone containt
+*/
+  @media screen and (max-width: 770px) {
+    img{
+      width: 100%;
+      height: 132vw;
+    }
+    .containt {
+      display: none;
+    }
+    .ContaintPhone{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(181, 192, 192);
+    }
+    h1{
+      background-color: rgb(181, 192, 192);
+    }
+    .menu{
+      display: none;
+    }
+    .bar1,.bar2,.bar3{
+      margin: 5px;
+      background-color: rgb(218, 206, 206);
+      height: 3px;
+      width: 25px;
+    }
+
+    .change .bar1 {
+      -webkit-transform: rotate(-50deg) translate(-5px, 5px);
+      transform: rotate(-50deg) translate(-5px, 5px);
+    }
+    
+    .change .bar2 {opacity: 0;}
+    
+    .change .bar3 {
+      -webkit-transform: rotate(50deg) translate(-8px, -8px);
+      transform: rotate(50deg) translate(-8px, -8px);
+    }
+    .conts{
+      display: none;
+    }
+    .project{
+      display: block;
+      width: 100%;
+    }
+    .PKochi{
+      width: 100%;
+      margin: 0px;
+      margin: -10px;
+    } 
+  }
+  
+
+
